@@ -5,7 +5,7 @@ const cors  = require('cors')
 const mongoose = require('mongoose')
 
 app.use(cors({
-    origin: 'http://localhost:5173', // Replace with your frontend's origin
+    // origin: 'http://localhost:5173', // Replace with your frontend's origin
     credentials: true, // Enable credentials (cookies) in requests
   }));
 app.use(express.json())
