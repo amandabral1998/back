@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 
 app.use(cors({
     origin: '*', 
-    // credentials: true, // Enable credentials (cookies) in requests
+    credentials: true, // Enable credentials (cookies) in requests
   }));
 
 
