@@ -5,7 +5,7 @@ const cors  = require('cors')
 const mongoose = require('mongoose')
 
 app.use(cors({
-    origin: 'https://ecommerceplatform1.netlify.app', 
+    origin: 'https://ecommerceplatform2.netlify.app', 
     credentials: true, // Enable credentials (cookies) in requests
   }));
 
